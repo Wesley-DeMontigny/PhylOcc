@@ -1,0 +1,24 @@
+[project]
+name = "phylo_occupancy"
+version = "0.1.0"
+dependencies = [
+    "jax",
+    "jaxlib",
+    "numpyro",
+    "ete3",
+    "pandas",
+    "numpy>=1.26,<2.0",
+    "scipy>=1.10,<1.13"
+]
+authors = [
+    {name = "Wesley DeMontigny", email = "wdemont@umd.edu"},
+    {name = "John Mattick", email = "jmattic1@umd.edu"},
+    {name = "Charles Delwiche", email = "delwiche@umd.edu"}
+]
+maintainers = [
+    {name = "Wesley DeMontigny", email = "wdemont@umd.edu"}
+]
+readme = "README.md"
+
+[project.scripts]
+phylo_occupancy = "phylo_occupancy.__main__:main"

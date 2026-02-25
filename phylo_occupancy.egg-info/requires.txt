@@ -1,0 +1,7 @@
+jax
+jaxlib
+numpyro
+ete3
+pandas
+numpy<2.0,>=1.26
+scipy<1.13,>=1.10
