@@ -1,2 +1,0 @@
-[console_scripts]
-phylo_occupancy = phylo_occupancy.__main__:main
