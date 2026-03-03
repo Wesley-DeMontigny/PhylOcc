@@ -10,12 +10,9 @@ The model utilizes an already-inferred phylogeny to construct a belief network, 
 
 ## Installation
 
-To install the model, clone or download the GitHub repository to your local machine.
-
-1. Navigate to the `/dist/` directory in your terminal.
-2. Install the provided wheel file using `pip`:
-```bash
-python -m pip install phylo_occupancy-0.1.0-py3-none-any.whl
+To install the model using `pip`, execute the following on your machine:
+```
+pip install git+https://github.com/Wesley-DeMontigny/Phylogenetic-Occupancy-Model.git
 ```
 
 ## Usage
