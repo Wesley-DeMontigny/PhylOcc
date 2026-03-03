@@ -8,7 +8,7 @@ The model utilizes an already-inferred phylogeny to construct a belief network, 
 * Probability of gene presence at each gene in each genome.
 * Multiple-imputation of gene presence/absence.
 
-(NOTE: This is not to be confused with phylogenetic occupancy models used in ecology, which are GLMs that utilize phylogenetic covariance structure)
+(NOTE: This is not to be confused with phylogenetic occupancy models used in ecology, which utilize logistic regression with phylogenetic covariance structure to predict occupancy of species)
 
 ## Installation
 
