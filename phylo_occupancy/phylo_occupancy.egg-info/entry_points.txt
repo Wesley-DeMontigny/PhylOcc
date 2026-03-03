@@ -1,2 +1,0 @@
-[console_scripts]
-phylo-occupancy = src.__main__:main
