@@ -1,12 +1,14 @@
-## The Phylogenetic Occupancy Model
+## The Phylogenetic Gene Occupancy Model
 
-Phylogenetic occupancy models are probabilistic models that combine aspects of ecological occupancy models and evolutionary models to impute gene presence/absence in incomplete genomic data. 
+Phylogenetic gene occupancy models are probabilistic models that combine aspects of ecological occupancy models and evolutionary models to impute gene presence/absence in incomplete genomic data. 
 
 The model utilizes an already-inferred phylogeny to construct a belief network, which is then fed into an occupancy emission model. This approach simultaneously estimates:
 * Ancestral genomic content.
 * Genome completeness.
 * Probability of gene presence at each gene in each genome.
 * Multiple-imputation of gene presence/absence.
+
+(NOTE: This is not to be confused with phylogenetic occupancy models used in ecology, which are GLMs that utilize phylogenetic covariance structure)
 
 ## Installation
 
