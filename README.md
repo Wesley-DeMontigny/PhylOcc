@@ -49,4 +49,4 @@ python -m phylo_occupancy -t asgard_tree.tree -d eggnog_ortholog_table.tsv -o ti
 ```
 
 ## Citation
-If this model is used in a publication, please cite:...
+If this model is used in a publication, please cite our pre-print (https://www.biorxiv.org/content/10.64898/2026.02.27.708499v1). A peer-reviewed paper is forthcoming. 
