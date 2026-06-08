@@ -1,3 +1,10 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
 [project]
 name = "phylo_occupancy"
 version = "0.1.0"
@@ -7,8 +14,8 @@ dependencies = [
     "numpyro",
     "ete3",
     "pandas",
-    "numpy>=1.26,<2.0",
-    "scipy>=1.10,<1.13"
+    "numpy>=1.26",
+    "scipy>=1.10"
 ]
 authors = [
     {name = "Wesley DeMontigny", email = "wdemont@umd.edu"},
@@ -19,6 +26,7 @@ maintainers = [
     {name = "Wesley DeMontigny", email = "wdemont@umd.edu"}
 ]
 readme = "README.md"
+
 
 [project.scripts]
 phylo_occupancy = "phylo_occupancy.__main__:main"
