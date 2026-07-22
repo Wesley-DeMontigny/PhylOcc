@@ -14,7 +14,7 @@ The model utilizes an already-inferred phylogeny to construct a belief network, 
 
 To install the model using `pip`, execute the following on your machine:
 ```
-pip install git+https://github.com/Wesley-DeMontigny/Phylogenetic-Occupancy-Model.git
+pip install git+https://github.com/Wesley-DeMontigny/PhylOcc.git
 ```
 
 ## Usage
